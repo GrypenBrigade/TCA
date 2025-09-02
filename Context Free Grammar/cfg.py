@@ -32,7 +32,7 @@ exsent3_token = word_tokenize(example_sentence3)
 exsent4_token = word_tokenize(example_sentence4)
 
 # tree generation
-print("Sentences that have more than 1 parse trees means the sentence is structured ambiguously.\n")
+print("Sentences that have more than 1 parse tree means the sentence is structured ambiguously.\n")
 
 print("\nExample Sentence 1 Parse Tree/s:\n")
 tree1 = list(parser.parse(exsent1_token)) 
